@@ -17,15 +17,15 @@ let prev=document.querySelector("#prev");
 
 function updateButtons() {
     if (coun === 5) {
-        next.classList.add("disable");
+        next.classList.add("disabled");
     } else {
-        next.classList.remove("disable");
+        next.classList.remove("disabled");
     }
 
     if (coun === 1) {
-        prev.classList.add("disable");
+        prev.classList.add("disabled");
     } else {
-        prev.classList.remove("disable");
+        prev.classList.remove("disabled");
     }
 }
 
